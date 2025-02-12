@@ -545,6 +545,7 @@ h3.banner-title {
 .indicate span {
     position: relative;
     z-index: 1;
+    color: #8e8e8e;
 }
 
 .indicate::after {
