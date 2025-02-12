@@ -797,9 +797,13 @@ div#congratulations {
 
     h1.banner-heading {
         font-size: 2.4rem;
-        margin-bottom: 20px !important;
+        margin-bottom: 25px !important;
+        line-height: 1;
     }
-
+    .qualified-form-wrapper .form-control {
+        font-size: .9rem;
+        padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+    }
     .banner {
         min-height: 160px;
     }
@@ -813,8 +817,8 @@ div#congratulations {
         top: unset;
         left: 0;
         transform: unset;
-        min-height: 25vh;
-        max-height: 25vh;
+        min-height: 220px;
+        max-height: 220px;
         width: 100%;
         height: 100%;
         overflow: hidden;
@@ -830,6 +834,7 @@ div#congratulations {
     .form-content {
         max-width: 100%;
         width: 100%;
+        padding: 1.875rem 2.5rem;
     }
     .form-wrapper.position-relative {
         display: flex;
@@ -843,8 +848,9 @@ div#congratulations {
         display: flex;
     }
     .quaified-text .banner-heading {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 1.3;
+        margin-bottom: 0 !important;
     }
     .quaified-text h3.banner-title {
         font-size: 1.3rem;

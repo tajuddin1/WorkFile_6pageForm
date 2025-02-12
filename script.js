@@ -76,7 +76,7 @@ function updateFontSize() {
     const clampedSize = Math.max(minFontSize, Math.min(vwFontSize, maxFontSize));
     document.documentElement.style.setProperty('--size-font', `${clampedSize}px`);
   } else {
-    const vwFontSize = window.innerWidth / 100 * 1.7;
+    const vwFontSize = window.innerWidth / 100 * 3.3;
     const clampedSize = Math.max(minFontSize, Math.min(vwFontSize, maxFontSize));
     document.documentElement.style.setProperty('--size-font', `${clampedSize}px`);
   }
