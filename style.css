@@ -1,9 +1,13 @@
 :root {
-    --size-font: 16px; /* 16px */
+    --size-font: 16px; 
 }
 
 html, body {
     background-image: linear-gradient(#fff, #e6faf7, #b5eee8);
+    background-image: url(image/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     font-size: var(--size-font);
 }
@@ -11,7 +15,7 @@ a {
     color: #00a0ed;
 }
 .container {
-    max-width: 67.5rem; /* 1080px */
+    max-width: 67.5rem;
 }
 
 .hidden {
@@ -24,12 +28,12 @@ a {
 }
 
 .logo {
-    max-width: 5rem; /* 80px */
+    max-width: 5rem;
 }
 
 .banner {
-    max-height: 10rem; /* 150px */
-    min-height: 9.5rem; /* 150px */
+    max-height: 10rem;
+    min-height: 9.5rem;
     background-image: url(image/banner-1.jpg);
     background-position: top right;
 }
@@ -38,40 +42,40 @@ a {
     width: 100%;
     position: absolute;
     left: 0;
-    padding: 0.625rem; /* 10px */
+    padding: 0.625rem;
     height: 100%;
     top: 50%;
     transform: translate(-0, -50%);
     display: flex;
     align-items: center;
-    gap: 0.3125rem; /* 5px */
+    gap: 0.3125rem;
     background-image: linear-gradient(45deg, #01a0edd4, transparent);
 }
 
 .banner-logo {
-    max-width: 8.75rem; /* 140px */
+    max-width: 8.75rem;
 }
 
 .banner-bonus {
     position: absolute;
     right: 0;
-    bottom: .8rem; /* 20px */
-    padding-left: 0.75rem; /* 12px */
-    border-top-left-radius: 1.875rem; /* 30px */
-    border-bottom-left-radius: 1.875rem; /* 30px */
+    bottom: .8rem;
+    padding-left: 0.75rem;
+    border-top-left-radius: 1.875rem; 
+    border-bottom-left-radius: 1.875rem;
     color: #16476d;
     font-weight: 800;
 }
 
 h1.banner-heading {
-    font-size: 2.4rem; /* 2.4rem (converted to rem) */
+    font-size: 2.4rem;
     font-weight: 900;
     color: #fff;
     line-height: 0.8;
 }
 
 h3.banner-title {
-    font-size: 1.4rem; /* 1.4rem (converted to rem) */
+    font-size: 1.4rem;
     line-height: .8;
     color: #ffed4c;
 }
@@ -82,36 +86,36 @@ h3.banner-title {
 
 .header-row .left p span {
     font-family: "Hurricane", serif;
-    font-size: 2.3rem; /* 2.3rem (converted to rem) */
+    font-size: 2.3rem;
     line-height: 1;
     color: #fb5d1d;
 }
 
 .font-fancy {
     font-family: "Hurricane", serif;
-    font-size: 4.3rem; /* 4.3rem (converted to rem) */
+    font-size: 4.3rem;
     color: #ffed4c;
     line-height: .6;
 }
 
 .form-content {
     position: relative;
-    max-width: 50%; /* 50% of container's max-width (for example) */
+    max-width: 50%;
     width: fit-content;
     margin-left: auto;
     font-family: "Red Hat Display", serif;
     background-color: #fff;
-    padding: 1.875rem 3.125rem; /* 30px 50px */
-    letter-spacing: .03125rem; /* 0.5px */
-    border-radius: 0.5rem; /* 8px */
-    box-shadow: -0.25rem 0px 1.25rem 0px #7f7f7f42; /* -4px 0px 20px */
-    min-height: 28.125rem; /* 450px */
+    padding: 1.875rem 3.125rem;
+    letter-spacing: .03125rem;
+    border-radius: 0.5rem;
+    box-shadow: -0.25rem 0px 1.25rem 0px #7f7f7f42;
+    min-height: 28.125rem;
     display: flex;
 }
 
 .form-content-inner {
-    min-width: 18.75rem; /* 300px */
-    max-width: 18.75rem; /* 300px */
+    min-width: 18.75rem;
+    max-width: 18.75rem;
     display: flex;
     flex-direction: column;
 }
@@ -121,8 +125,8 @@ h3.banner-title {
     top: 50%;
     left: 0;
     transform: translate(-0%, -50%);
-    min-height: 25.625rem; /* 410px */
-    max-height: 25.625rem; /* 410px */
+    min-height: 25.625rem;
+    max-height: 25.625rem;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -130,16 +134,16 @@ h3.banner-title {
 
 .form-image img {
     position: absolute;
-    width: calc(100% - 23rem); /* 100% - 390px */
+    width: calc(100% - 23rem);
     height: 100%;
     object-fit: cover;
-    border-radius: 0.625rem; /* 10px */
-    border: 0.125rem solid #e1e1e1; /* 2px solid */
+    border-radius: 0.625rem;
+    border: 0.125rem solid #e1e1e1;
 }
 
 .intro h4 {
-    font-size: 1.375rem; /* 22px (converted to rem) */
-    letter-spacing: .03125rem; /* 0.5px */
+    font-size: 1.375rem;
+    letter-spacing: .03125rem;
     color: #16476d;
     line-height: 1.3;
     font-weight: 600 !important;
@@ -156,14 +160,14 @@ h3.banner-title {
 }
 .intro p.time {
     color: #bebebe;
-    font-size: .9rem; /* .9rem */
+    font-size: .9rem;
 }
 
 .intro p.time::before {
     content: '';
     position: absolute;
     width: 60%;
-    height: 0.125rem; /* 2px */
+    height: 0.125rem;
     background-color: #e7e0e0;
     z-index: 0;
     left: 50%;
@@ -177,7 +181,7 @@ h3.banner-title {
 }
 
 .intro .alert {
-    font-size: .9rem ; /* .9rem (converted to rem) */
+    font-size: .9rem;
     line-height: 1.2;
     font-weight: 400;
     color: #16476d;
@@ -189,14 +193,14 @@ h3.banner-title {
 
 .indicate {
     position: relative;
-    width: 1.25rem; /* 20px */
-    height: 1.25rem; /* 20px */
+    width: 1.25rem;
+    height: 1.25rem;
     background: #e5e5e5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: .8rem; /* .8rem */
+    font-size: .8rem; 
     font-weight: 700;
     color: #8e8e8e;
 }
@@ -204,17 +208,16 @@ h3.banner-title {
 .indicate span {
     position: relative;
     z-index: 1;
-    /* color: #8e8e8e; */
 }
 
 .indicate::after {
     position: absolute;
     content: '';
-    width: 3rem; /* 48px */
-    height: 0.125rem; /* 2px */
+    width: 3rem;
+    height: 0.125rem;
     background-color: #e5e5e5;
     z-index: 0;
-    right: 1.25rem; /* 20px */
+    right: 1.25rem;
 }
 
 .indicate:first-child::after {
@@ -231,21 +234,21 @@ h3.banner-title {
 }
 
 .question-title {
-    font-size: 1.2rem; /* 1.2rem (converted to rem) */
+    font-size: 1.2rem;
     font-weight: 700;
     color: #16476d;
 }
 
 #step4 .question-title {
-    font-size: 1rem; /* 1rem (converted to rem) */
+    font-size: 1rem;
     font-weight: 700;
     color: #16476d;
 }
 
 .answer label {
-    padding: 0.5rem; /* 8px 10px */
-    border: 0.0625rem solid #4a92bb; /* 1px */
-    border-radius: 1.875rem; /* 30px */
+    padding: 0.5rem;
+    border: 0.0625rem solid #4a92bb;
+    border-radius: 1.875rem;
     color: #1f669d;
     font-weight: 500;
     cursor: pointer;
@@ -253,7 +256,7 @@ h3.banner-title {
 }
 
 .answer label:hover {
-    box-shadow: 0px 0px 0.0625rem 0.125rem #54ade06b; /* 1px 2px */
+    box-shadow: 0px 0px 0.0625rem 0.125rem #54ade06b;
 }
 
 .answer input[type="radio"]:checked + label {
@@ -266,7 +269,7 @@ h3.banner-title {
     text-transform: uppercase;
     font-weight: 700;
     width: 100%;
-    border-radius: 0.5rem; /* 8px */
+    border-radius: 0.5rem; 
     background: unset !important;
     background-image: linear-gradient(0deg, #4fa171, #348d59) !important;
     border-color: #45a36a !important;
@@ -286,13 +289,13 @@ h3.banner-title {
 }
 
 .question-row .answer label {
-    font-size: .75rem; /* .75rem */
+    font-size: .75rem;
 }
 
 .question-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 0.5rem; /* 8px */
+    column-gap: 0.5rem;
 }
 
 .qualified h4 {
@@ -305,19 +308,19 @@ h3.banner-title {
 }
 
 .qualified p.sub-heading {
-    font-size: 1rem; /* 1rem (converted to rem) */
+    font-size: 1rem;
     font-weight: 800;
     line-height: 1.3;
 }
 
 p.description {
-    font-size: 0.8rem; /* .8rem (converted to rem) */
+    font-size: 0.8rem;
     font-weight: 700;
     line-height: 1.2;
 }
 
 div#congratulations {
-    max-width:  360px; /* 360px */
+    max-width:  360px;
 }
 
 .qualified-form-wrapper {
@@ -325,8 +328,8 @@ div#congratulations {
 }
 
 .qualified-form-wrapper .form-control {
-    font-size: .8rem; /* .8rem (converted to rem) */
-    padding: 0.3125rem 0.5rem 0.3125rem 2.5rem; /* 5px 8px 5px 40px */
+    font-size: .8rem;
+    padding: 0.3125rem 0.5rem 0.3125rem 2.5rem;
 }
 
 .qualified-form-wrapper .form-control::placeholder {
@@ -334,32 +337,32 @@ div#congratulations {
 }
 
 .qualified-form-wrapper .form-control:focus {
-    box-shadow: 0 0 0 0.009375rem #1a7ac353; /* .15rem */
+    box-shadow: 0 0 0 0.009375rem #1a7ac353;
     border-color: #2782c8;
 }
 
 .qualified-form-wrapper svg.icon {
     position: absolute;
-    max-width: 1.375rem; /* 22px */
+    max-width: 1.375rem;
     color: #ebebeb;
     top: 50%;
-    left: 0.625rem; /* 10px */
+    left: 0.625rem;
     transform: translate(-0px, -50%);
-    border-right: 0.0625rem solid #ebebeb; /* 1px */
-    padding-right: 0.5rem; /* 8px */
+    border-right: 0.0625rem solid #ebebeb;
+    padding-right: 0.5rem;
     z-index: 6;
 }
 
 .agreement label {
-    font-size: 0.7rem; /* .7rem */
+    font-size: 0.7rem;
     line-height: 1.2;
     font-weight: 500;
     color: #42474b;
 }
 
 .agreement input {
-    width: 0.8rem; /* .8rem */
-    height: 0.8rem; /* .8rem */
+    width: 0.8rem; 
+    height: 0.8rem;
     box-shadow: unset !important;
     outline: 0 !important;
 }
@@ -372,14 +375,14 @@ div#congratulations {
 .quaified-text {
     position: absolute;
     width: 100%;
-    left: 1.25rem; /* 20px */
-    top: 1.875rem; /* 30px */
+    left: 1.25rem; 
+    top: 1.875rem; 
     display: flex;
     align-items: center;
 }
 
 .quaified-text .banner-logo {
-    max-width: 8.5rem; /* 120px */
+    max-width: 8.5rem;
     width: 100%;
 }
 
