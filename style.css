@@ -309,6 +309,9 @@ h3.banner-title {
     font-weight: 800;
     color: #16476d;
 }
+.unqualified h4{
+    font-size: 1.3rem;
+}
 
 .qualified h4.text-colored {
     color: #348d59;
