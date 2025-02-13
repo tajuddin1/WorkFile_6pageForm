@@ -29,7 +29,7 @@ a {
 
 .banner {
     max-height: 10rem; /* 150px */
-    min-height: 10rem; /* 150px */
+    min-height: 9.5rem; /* 150px */
     background-image: url(image/banner-1.jpg);
     background-position: top right;
 }
@@ -55,7 +55,7 @@ a {
 .banner-bonus {
     position: absolute;
     right: 0;
-    bottom: 1.25rem; /* 20px */
+    bottom: .8rem; /* 20px */
     padding-left: 0.75rem; /* 12px */
     border-top-left-radius: 1.875rem; /* 30px */
     border-bottom-left-radius: 1.875rem; /* 30px */
