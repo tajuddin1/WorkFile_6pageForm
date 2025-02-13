@@ -57,7 +57,7 @@ a {
 }
 
 .banner-logo {
-    max-width: 8.75rem;
+    /* max-width: 8.75rem; */
 }
 
 .banner-bonus {
@@ -384,16 +384,17 @@ div#congratulations {
 
 .quaified-text {
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     left: 1.25rem;
     top: 1.875rem;
-    display: flex;
+    /* display: flex; */
     align-items: center;
+    padding-left: 8vw;
 }
 
 .quaified-text .banner-logo {
-    max-width: 8.5rem;
-    width: 100%;
+    /* max-width: 8.5rem; */
+    /* width: 100%; */
 }
 
 .quaified-text .banner-heading {
@@ -422,17 +423,16 @@ div#congratulations {
     }
 
     .quaified-text .banner-logo {
-        max-width: 4rem;
+        /* max-width: 4rem; */
     }
 }
 
 @media screen and (max-width: 991px) {
-    .banner-logo {
-        max-width: 120px;
-    }
-
     .banner {
         min-height: 130px;
+    }
+    .quaified-text {
+        padding-left: 6vw;
     }
 }
 
@@ -440,7 +440,9 @@ div#congratulations {
     .banner-logo {
         max-width: 97px;
     }
-
+    .quaified-text {
+        padding-left: 3vw;
+    }
     h3.banner-title {
         font-size: 1.2rem;
     }
@@ -469,6 +471,7 @@ div#congratulations {
 
     .quaified-text {
         display: block;
+        padding-left: 4%;
     }
 }
 
@@ -484,7 +487,9 @@ div#congratulations {
     .container {
         padding: 0 20px;
     }
-
+    div#congratulations {
+        max-width: 100%;
+    }
     .header-row {
         flex-direction: column;
     }
@@ -547,6 +552,7 @@ div#congratulations {
 
     .quaified-text {
         display: flex;
+        width: 100%;
     }
 
     .quaified-text .banner-heading {
@@ -560,6 +566,6 @@ div#congratulations {
     }
 
     .quaified-text .banner-logo {
-        max-width: 5.5rem;
+        max-width: 4.5rem;
     }
 }
